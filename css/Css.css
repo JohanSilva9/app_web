@@ -1,0 +1,13 @@
+div{
+    border: 1px solid #000000;   
+}
+
+#subTitulo {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    background-color: #f0f8ff;
+    text-decoration: underline;
+    color: #000000;
+
+}
