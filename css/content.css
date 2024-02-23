@@ -1,0 +1,24 @@
+*{
+    font-family: "Anta", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    border: 1px solid #000000;
+    padding: 16px;
+    padding: 8px 16px;
+    padding: 8px 16px 32px 64px;
+    padding-block: 20px;
+    margin: 16px;
+    border-color: #0026ff;
+    border-radius: 26px;
+    height: 500px;
+    width: 100%;
+    box-shadow: 1px 1px #000000;
+    box-shadow: 10p 5px 6px -5px #000000;
+
+
+
+
+}
