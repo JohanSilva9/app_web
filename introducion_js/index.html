@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
+    <link rel="stylesheet" href="css/forms.css">
 </head>
 <body>
     <button onclick="mostrarMsg()">Mensaje</button>
     <h1 id="tituloH1">Titulo</h1>
+
+    <form name="SaludarForm">
+        <input id="nombreInp" type="text" name="nombreInp" placeholder="ingrse su nombre">
+        <label id="nombreError" class ="error">Debe ingresar el valor</label>
+        <label id="nombreLetrasError" class="error">Debe ingreser solo letras</label>
+        <button id="saludarBtn" type="button">Saludar</button>
+    </form>
+    <p><!--mostrar saludo--></p>
+
     <script>
-        alert("Hola mundo!");
+       // alert("Hola mundo!");
         console.log("Hola mundo!");
     </script>
     <script src="js/index.js"></script>
     <script src="js/arrays.js"></script>
+    <script src="js/forms.js"></script>
 </body>
 </html>
